@@ -20,7 +20,7 @@ The aim of the project is to build a robot capable of following a light source u
 3.	Results
 
 Link for video footage of robot
-https://drive.google.com/file/d/1E1ej-PAZcfEqxub9xhq3GICMQCekUAoc/view?usp=sharing
+https://youtube.com/shorts/kQtfdpwLRE0?feature=share
 
 3.1	Description of work
 The robot was constructed in a way that there is a minimal amount of visible cables. It works by comparing the sensor values from both LDRs for 3 cases: 1) There is a small difference between sensor values, which means the robot will go straight; 2) left side LDR’s value is greater than the right side, which means there is a brighter light source on the left, so robot turns to the left by left side wheel going in reverse and right side wheel going forward; 3) right side LDR’s value is greater than the left side, which means there is a brighter light source on the right, so robot turns to the right by right side wheel going in reverse and left side wheel going forward. The robot stops when the bumper switch is pushed (robot meets the obstacle)
